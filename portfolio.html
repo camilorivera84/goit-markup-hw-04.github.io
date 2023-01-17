@@ -20,11 +20,11 @@
         <nav class="menu">
           <a class="logo" href="index.html">Webstudio</a>
           <ul class="list header-pages">
-            <li id="current" class="list-item">
+            <li class="list-item">
               <a class="list link-pages" href="index.html">Studio</a>
             </li>
-            <li class="list-item">
-              <a class="list link-pages current portfolio" href="portfolio.html"
+            <li id="current" class="list-item">
+              <a class="current list link-pages portfolio" href="portfolio.html"
                 >Portfolio</a
               >
             </li>
@@ -33,7 +33,19 @@
             </li>
           </ul>
         </nav>
+
         <ul class="list-contact">
+          <li>
+            <a class="icon" href="mailto: info@devstudio.com">
+              <svg class="icon-contact" width="16" height="12">
+                <use
+                  href="./images/symbol-defs.svg#icon-sobre-activable"
+                  width="16"
+                  height="12"
+                ></use>
+              </svg>
+            </a>
+          </li>
           <li class="list-item">
             <a
               class="list link email list-contact"
@@ -41,6 +53,18 @@
               >info@devstudio.com</a
             >
           </li>
+          <li>
+            <a class="icon" href="tel: +1-212-772-4150">
+              <svg class="icon-contact" width="10" height="16">
+                <use
+                  href="./images/symbol-defs.svg#icon-telfono"
+                  width="10"
+                  height="16"
+                ></use>
+              </svg>
+            </a>
+          </li>
+
           <li class="list-item">
             <a class="list link tel list-contact" href="tel: +1-212-772-4150"
               >+1-212-772-4150</a
@@ -192,27 +216,78 @@
       </section>
     </main>
     <footer class="footer-section">
-      <div class="container">
-        <a class="logo-footer" href="WebStudio">WebStudio</a>
-        <address>
-          <a
-            class="link contacts site"
-            href="https://goo.gl/maps/ua91CeisvxC2wW5t7"
-            >695Park Ave, New York, NY 10065 United States</a
-          >
-          <ul class="link list-footer">
-            <li class="footer-item">
-              <a class="link contacts email" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="footer-item">
-              <a class="link contacts tel" href="tel:+1-212-772-4150"
-                >+1-212-772-4150</a
-              >
-            </li>
-          </ul>
-        </address>
+      <div class="container container-footer">
+        <div>
+          <a class="logo-footer" href="WebStudio">WebStudio</a>
+          <address class="">
+            <a
+              class="link contacts site"
+              href="https://goo.gl/maps/ua91CeisvxC2wW5t7"
+              >695Park Ave, New York, NY 10065 United States</a
+            >
+            <ul class="link list-footer">
+              <li class="footer-item">
+                <a class="link contacts email" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="link contacts tel" href="tel:+1-212-772-4150"
+                  >+1-212-772-4150</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="icon-social-section">
+          <h3 class="social-media">Find us</h3>
+          <div class="container-icon-footer">
+            <svg class="icon-footer" width="44" height="44">
+              <a class="icon-footer-social" href="www.instagram.com">
+                <use
+                  href="./images/symbol-defs.svg#icon-instagram"
+                  width="20"
+                  height="20"
+                  x="12"
+                  y="12"
+                ></use>
+              </a>
+            </svg>
+            <svg class="icon-footer" width="44" height="44">
+              <a class="icon-footer-social" href="www.twitter.com">
+                <use
+                  href="./images/symbol-defs.svg#icon-twitter"
+                  width="20"
+                  height="20"
+                  x="12"
+                  y="12"
+                ></use>
+              </a>
+            </svg>
+            <svg class="icon-footer" width="44" height="44">
+              <a class="icon-footer-social" href="www.facebook.com">
+                <use
+                  href="./images/symbol-defs.svg#icon-facebook"
+                  width="20"
+                  height="20"
+                  x="12"
+                  y="12"
+                ></use>
+              </a>
+            </svg>
+            <svg class="icon-footer" width="44" height="44">
+              <a class="icon-footer-social" href="www.linkedin.com">
+                <use
+                  href="./images/symbol-defs.svg#icon-linkedin"
+                  width="20"
+                  height="20"
+                  x="12"
+                  y="12"
+                ></use>
+              </a>
+            </svg>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
