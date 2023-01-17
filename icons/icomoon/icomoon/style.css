@@ -1,0 +1,64 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-sobre-activable {
+  width: 1.3330078125em;
+}
+
+.icon-telfono {
+  width: 0.625em;
+}
+
+.icon-antena {
+  width: 0.9423828125em;
+}
+
+.icon-Logo_brand {
+  width: 2em;
+}
+
+.icon-Logo_company {
+  width: 2em;
+}
+
+.icon-Logo_cuadros {
+  width: 2em;
+}
+
+.icon-Logo_foster {
+  width: 2em;
+}
+
+.icon-Logo_hojas {
+  width: 2em;
+}
+
+.icon-Logo_tag_line {
+  width: 2em;
+}
+
+.icon-twiter {
+  width: 1.111328125em;
+}
+
+.icon-pc {
+  width: 1.2958984375em;
+}
+
+.icon-reloj {
+  width: 0.9716796875em;
+}
