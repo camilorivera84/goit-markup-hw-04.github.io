@@ -87,6 +87,12 @@ p {
   margin-top: 0;
   padding-left: 0;
 }
+.list-contact:hover {
+  color: var(--brand-color);
+}
+.list-contact:focus {
+  color: var(--brand-color);
+}
 .icon-contact {
   cursor: pointer;
   margin-right: 10px;
@@ -193,9 +199,8 @@ p {
   margin: auto;
   align-items: center;
   justify-content: center;
-  background-size: cover;
   background-position: 50% 50%;
-  background-size: initial;
+  background-size: cover;
 }
 .hero-image {
   width: 1200px;
@@ -418,11 +423,22 @@ p {
 }
 .icon-team-section {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   padding-top: 16px;
-  cursor: pointer;
-  gap: 10px;
+  padding-left: 0;
+}
+.icon-team-section-web {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  flex-basis: calc((100% - 30px) / 4);
+}
+.icon-team {
+  margin: 0;
+  padding: 0;
 }
 .icon-team:hover {
   background-color: #03a9f4;
@@ -449,19 +465,34 @@ p {
 }
 .icon-customer-section {
   display: flex;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-left: 0;
+}
+.icon-customer-section-link {
+  display: flex;
+  flex: wrap;
   justify-content: center;
   align-items: center;
   padding-top: 16px;
-  fill: gray;
-  cursor: pointer;
-  gap: 30px;
   padding-top: 0;
+  flex-basis: calc((100% - 150px) / 6);
 }
+
 .icon-customer {
   border: 1px solid var(--fill-icon);
   border-radius: 4px;
 }
-
+.icon-customer:hover {
+  border: 1px solid var(--brand-color);
+  border-radius: 4px;
+}
+.icon-customer:focus {
+  border: 1px solid var(--brand-color);
+  border-radius: 4px;
+}
 .footer-section {
   background: var(--primary-background-color);
   padding-top: 60px;
@@ -547,6 +578,14 @@ p {
   align-items: center;
   cursor: pointer;
   gap: 10px;
+  padding-left: 0;
+}
+.container-icon-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-basis: calc((100% - 30px) / 4);
 }
 
 .link.site:hover,

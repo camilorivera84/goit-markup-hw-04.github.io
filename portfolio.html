@@ -20,11 +20,11 @@
         <nav class="menu">
           <a class="logo" href="index.html">Webstudio</a>
           <ul class="list header-pages">
-            <li class="list-item">
+            <li id="current" class="list-item">
               <a class="list link-pages" href="index.html">Studio</a>
             </li>
-            <li id="current" class="list-item">
-              <a class="current list link-pages portfolio" href="portfolio.html"
+            <li class="list-item">
+              <a class="list link-pages portfolio current" href="portfolio.html"
                 >Portfolio</a
               >
             </li>
@@ -35,40 +35,32 @@
         </nav>
 
         <ul class="list-contact">
-          <li>
-            <a class="icon" href="mailto: info@devstudio.com">
-              <svg class="icon-contact" width="16" height="12">
+          <li class="list-item">
+            <a
+              class="list link email list-contact"
+              href="mailto: info@devstudio.com"
+            >
+              <svg class="icon icon-contact" width="16" height="12">
                 <use
                   href="./images/symbol-defs.svg#icon-sobre-activable"
                   width="16"
                   height="12"
                 ></use>
               </svg>
+              info@devstudio.com
             </a>
           </li>
           <li class="list-item">
-            <a
-              class="list link email list-contact"
-              href="mailto: info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="icon" href="tel: +1-212-772-4150">
-              <svg class="icon-contact" width="10" height="16">
+            <a class="list link tel list-contact" href="tel: +1-212-772-4150">
+              <svg class="icon icon-contact" width="10" height="16">
                 <use
                   href="./images/symbol-defs.svg#icon-telfono"
                   width="10"
                   height="16"
                 ></use>
               </svg>
+              +1-212-772-4150
             </a>
-          </li>
-
-          <li class="list-item">
-            <a class="list link tel list-contact" href="tel: +1-212-772-4150"
-              >+1-212-772-4150</a
-            >
           </li>
         </ul>
       </div>
