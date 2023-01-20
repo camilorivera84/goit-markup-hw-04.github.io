@@ -93,10 +93,6 @@ p {
   color: var(--brand-color);
 }
 
-.icon-contact {
-  cursor: pointer;
-  margin-right: 10px;
-}
 .icon {
   z-index: 2;
   fill: gray;
@@ -268,6 +264,7 @@ p {
   cursor: pointer;
   background: var(--secondary-background-color);
   border-radius: 4px;
+  margin-bottom: 30px;
 }
 .icon-feature {
   fill: var(--brand-color);
@@ -401,7 +398,6 @@ p {
   padding-bottom: 0;
 }
 .feature-actor {
-  padding-bottom: 30px;
   padding-top: 30px;
 }
 .team.description {
@@ -422,13 +418,14 @@ p {
   text-align: center;
   color: var(--primary-enlace-color);
   margin-top: 0;
+  margin-bottom: 16px;
 }
 .icon-team-section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-top: 16px;
+  padding-bottom: 30px;
   padding-left: 0;
   gap: 10px;
 }
@@ -472,7 +469,6 @@ p {
   padding-left: 0;
 }
 .icon-customer-section-link {
-  padding-top: 16px;
   padding-top: 0;
   flex-basis: calc((100% - 150px) / 6);
   width: 170px;
